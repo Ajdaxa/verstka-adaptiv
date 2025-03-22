@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>КазанАвто</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="assets/images/logo/logo.svg"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container container">
+					<img
+						src="assets/images/logo/logo.svg"
+						alt="logotip"
+						class="header__logo"
+					/>
+					<input
+						type="text"
+						class="header__input-search"
+						placeholder="Поиск по объявлениям"
+					/>
+					<nav class="nav header__menu">
+						<ul class="header__list">
+							<li class="header__list-item">
+								<a href="#" class="header__link">Автомобили</a
+								><img
+									src="assets/images/header/Line1.svg"
+									alt=""
+									class="header__link-icon"
+								/>
+							</li>
+							<li class="header__list-item">
+								<a href="#" class="header__link">Услуги</a
+								><img
+									src="assets/images/header/Line1.svg"
+									alt=""
+									class="header__link-icon"
+								/>
+							</li>
+							<li class="header__list-item">
+								<a href="#" class="header__link">Сотрудничество</a
+								><img
+									src="assets/images/header/Line1.svg"
+									alt=""
+									class="header__link-icon"
+								/>
+							</li>
+							<li class="dd header__list-item">
+								<button class="dn btn header__btn-postadvert">
+									Разместить объявление
+								</button>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__actions">
+						<button
+							class="dn modal__btn _modal-open header__btn-signin btn"
+							data-modal-open="modal-1"
+						>
+							<img
+								src="assets/images/header/signing.svg"
+								alt=""
+								class="signin__btn-icon"
+							/>
+						</button>
+						<button class="dn btn header__btn-postadvert">
+							Разместить объявление
+						</button>
+					</div>
+					<button
+						class="btb modal__btn _modal-open header__btn-signin btn"
+						data-modal-open="modal-1"
+					>
+						<img
+							src="assets/images/header/signing.svg"
+							alt=""
+							class="signin__btn-icon"
+						/>
+					</button>
+					<div class="burger">
+						<span class="burger__span"></span>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<div class="card__container container">
+					<h3 class="car__name">Chery Arizzo 8</h3>
+					<div class="car_card">
+						<img src="assets/images/card/car.jpg" alt="" class="card__img" />
+						<div class="card__info">
+							<div class="card__info1">
+								<div class="card__pa">
+									<p class="card__price">2 580 000 ₽</p>
+									<p class="card__d-price">От 50 000 ₽/мес</p>
+								</div>
+								<div class="card__info1-actions">
+									<button class="card__button-save">
+										<svg
+											class="serdce"
+											fill="#000000"
+											height="35"
+											width="35"
+											version="1.1"
+											id="Capa_1"
+											xmlns="http://www.w3.org/2000/svg"
+											xmlns:xlink="http://www.w3.org/1999/xlink"
+											viewBox="0 0 471.701 471.701"
+											xml:space="preserve"
+										>
+											<g>
+												<path
+													d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+		c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3
+		l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4
+		C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3
+		s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4
+		c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3
+		C444.801,187.101,434.001,213.101,414.401,232.701z"
+												/>
+											</g>
+										</svg>
+									</button>
+									<button class="card__button-sravni">
+										<img src="assets/images/card/Group.svg" alt="" />
+									</button>
+									<button class="card__button-order">
+										<img
+											src="assets/images/card/arrow.down.forward.circle.svg"
+											alt=""
+										/>
+									</button>
+								</div>
+							</div>
+							<div class="card__info2">
+								<ul class="card__params">
+									<li class="card__param">
+										<img
+											src="assets/images/card/dvigatel.svg"
+											alt=""
+											class="card__param-icon"
+										/>
+										<p class="card__param-text">1.6л 150лс / Бензин</p>
+									</li>
+									<li class="card__param">
+										<img
+											src="assets/images/card/dveri.svg"
+											alt=""
+											class="card__param-icon"
+										/>
+										<p class="card__param-text">Седан / 5 дв.</p>
+									</li>
+									<li class="card__param">
+										<img
+											src="assets/images/card/shassi.svg"
+											alt=""
+											class="card__param-icon"
+										/>
+										<p class="card__param-text">Робот / Передний</p>
+									</li>
+								</ul>
+							</div>
+							<div class="card__info3">
+								<p class="card__info3-name">Дополнительные опции</p>
+								<div class="ci__bl">
+									<p class="ci3__text">Страхование КАСКО</p>
+									<label class="checkbox-other">
+										<input type="checkbox" checked />
+										<span></span>
+									</label>
+								</div>
+								<div class="ci__bl">
+									<p class="ci3__text">Трейд-ин</p>
+									<label class="checkbox-other">
+										<input type="checkbox" checked />
+										<span></span>
+									</label>
+								</div>
+
+								<div class="ci__bl">
+									<p class="ci3__text">Кредит КазанАвто</p>
+									<label class="checkbox-other">
+										<input type="checkbox" checked />
+										<span></span>
+									</label>
+								</div>
+							</div>
+							<div class="card__info4">
+								<p class="card__itog-pricetext">
+									Итоговая стоимость автомобиля:
+								</p>
+								<p class="card__itog-price">2 580 000 ₽</p>
+								<button class="header__btn-postadvert zxc btn">
+									Оставить заявку
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="card_minfo">
+						<p class="minfo__name">Технические характеристики</p>
+						<ul class="minfo__list">
+							<li class="minfo">
+								<p class="mi__title">Двигатель:</p>
+								<p class="mi__name">1.6 л</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Привод:</p>
+								<p class="mi__name">Передний</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Тип кузова:</p>
+								<p class="mi__name">Седан</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Руль:</p>
+								<p class="mi__name">Левый</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Мощность:</p>
+								<p class="mi__name">150 лс</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">КПП:</p>
+								<p class="mi__name">Робот</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Цвет:</p>
+								<p class="mi__name">Белый</p>
+							</li>
+							<li class="minfo">
+								<p class="mi__title">Топливо:</p>
+								<p class="mi__name">Бензин</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer style="background-color: white" class="footer">
+				<div class="footer__container container">
+					<div class="footer__lc">
+						<a href="#"
+							><img
+								src="assets/images/logo/logo.svg"
+								alt=""
+								class="footer__logo"
+						/></a>
+						<button class="footer__btn-call">
+							<img src="assets/images/footer/phone.svg" alt="" /><a
+								href="tel:+797777777777"
+								>7 (977) 777 - 77 - 77</a
+							>
+						</button>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__menu">
+							<li class="footer__menu__title">Автомобили</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Новые авто</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Автомобили с пробегом</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Продать авто</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Паралельный импорт</a>
+							</li>
+						</ul>
+						<ul class="footer__menu">
+							<li class="footer__menu__title">Услуги</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Кредитование</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Страхование</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Корпоративным клиентам</a>
+							</li>
+						</ul>
+						<ul class="footer__menu">
+							<li class="footer__menu__title">Сервис</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Запись</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Шиномонтаж</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="footer__link">Кузовной ремонт</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__links">
+						<a href="#"
+							><img src="assets/images/footer/20250211140561.png" alt=""
+						/></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
